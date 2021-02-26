@@ -21,8 +21,8 @@ Each row in the data corresponds to an observation taken for a given child for a
 |fam_n    |family size|
 |min_dist |	min distance to an urban center|
 |dist_cap |	min distance to the capital|
-|poor     |	poor = 1|
-|progresa |treatment =1|
+|poor     |	poor = 'pobre'|
+|progresa |treatment = 'basal'|
 |hohedu	  |years of schooling of head of household|
 |hohwag	  |monthly wages of head of household|
 |welfare_index|	welfare index used to classify poor|

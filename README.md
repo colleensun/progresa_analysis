@@ -1,8 +1,8 @@
-# Progresa Analysis
+# Background
 
 The [Progresa](http://en.wikipedia.org/wiki/Oportunidades) program is a government social assistance program in Mexico. The goal of the program was to improve educational outcomes in poor households by providing subsidies if they send their children to school.
 
-The goal of this analysis is to measure the impact of Progresa on secondary school enrollment rates. The timeline of the program was:
+The timeline of the program was:
 * Baseline survey conducted in 1997
 * Intervention begins in 1998, "Wave 1" of surveys conducted in 1998
 * "Wave 2" of surveys conducted in 1999
@@ -33,3 +33,9 @@ Each row in the data corresponds to an observation taken for a given child for a
 |village|	village id|
 |sc97	|schooling in 1997|
 |grc97  |grade enrolled in 1997
+
+# Problem Statement
+The goal of this analysis is to evaluate the validity of the experimental design of the Progresa program and measure the program's impact on secondary school enrollment rates.
+
+# Analysis
+The full analysis can be found in the **progresa_analysis.ipynb** file.

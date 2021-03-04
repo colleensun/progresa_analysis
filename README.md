@@ -38,4 +38,4 @@ Each row in the data corresponds to an observation taken for a given child for a
 The goal of this analysis is to evaluate the validity of the experimental design of the Progresa program and measure the program's impact on secondary school enrollment rates.
 
 # Analysis
-The full analysis can be found in the **progresa_analysis.ipynb** file.
+The full analysis can be found in the **Progresa Analysis.ipynb** file.

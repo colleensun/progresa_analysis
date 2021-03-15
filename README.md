@@ -39,3 +39,20 @@ The goal of this analysis is to evaluate the validity of the experimental design
 
 # Analysis
 The full analysis can be found in the **Progresa Analysis.ipynb** file.
+
+# Methodology
+Some analyses that were performed include:
+
+* Summary statistics to get a sense of the distribution of data
+* Checking for missing values, encoded variables as dummy variables to use for further analysis
+* T-test to check whether the difference between treatment and control groups is significant at the baseline (before treatment is rolled out)
+* Visualized outcome distributions of treatment/control groups before/after treatment using histograms
+* Performed impact evaluation by examining the simple-difference and difference-in-difference estimates of impact, this was done through linear regression models
+* Checked for spillover effects
+
+# Findings
+* There exists some differences between treatment and control villages at baseline, which could suggest that the randomization was not done properly. This is important because having many significant differences between the control and treatment groups suggests that the groups differ systematically, and any subsequent differences in outcomes between the groups cannot be attributed to the treatment, since they could intead be due to pre-existing systematic differences.
+* There was no evidence of spillover effects. That is, none of the treatment effects got spilled over to the control group, which is what we want to see.
+* I conclude that Progresa had a causal impact on the enrollment rates of poor households in Mexico because:
+  * Targeting was performed on two levels during the experiment design (village- and household-level)
+  * Both the simple difference and difference-in-difference evaluation tell us that the treatment outcome is statistically significant
